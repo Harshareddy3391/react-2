@@ -3,8 +3,9 @@ import { useState} from 'react'
 
 const LoginForm = () => {
   let [tc, setTc] = useState(true)
-
-
+  const tchandle = (e) => {
+    setTc(!e.target.checked)
+  }
 
   return (
     <div>
