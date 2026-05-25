@@ -1,19 +1,16 @@
 import { useContext } from "react";
 import React from "react";
-import { aboutcont } from "./aboutcon";
+import {aboutcontext } from "./aboutcon";
 
+let About = () => {
 
-let About= ( )=>{
-    let data=useContext(aboutcont)
+    let data = useContext(aboutcontext);
 
-    return(
-    <>
-
-    
-
-    <p>{json.stringfy(data)}</p>
-    <p>hiiii</p>
-
-    </>
-    )
+    return (
+        <>
+                        <p>{data.age}</p>
+        </>
+    );
 }
+
+export default About;
