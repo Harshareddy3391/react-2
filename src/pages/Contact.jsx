@@ -16,7 +16,7 @@ function Contact() {
   }
   return (
     <div className="container mt-5">
-      <h1>Contact</h1>
+      <h1>Contact page</h1>
       <p>Reach out by email or phone for more information.</p>
       <button onClick={() => setnumber(number + 1)}>Phone: {number}</button>
       <button onClick={() => setfact(res)}>Fact: {fact}</button>
